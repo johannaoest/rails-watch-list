@@ -1,0 +1,9 @@
+<h1>All Movies</h1>
+  <ul class="list-group">
+      <% @lists.each do |list| %>
+        <li class="list-group-item">
+            <%= list.name %>
+        </li>
+        <% end %>
+      <%= link_to 'Create a List', new_list_path %>
+    </ul>
