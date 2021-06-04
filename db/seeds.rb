@@ -21,3 +21,4 @@ data['results'].each do |info|
 end
 
 puts "All done 🎉"
+
